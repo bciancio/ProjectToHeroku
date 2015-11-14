@@ -66,10 +66,10 @@
 
 4. If all functionality works as expected than continue.
 5. Why are my files 'brown' color?
- 
+
+  1. Right click your module > git > add directory
+  2. This will add all the files/structure to git. Now you can commit easy peasy.
+  
   * Sources
     *  [Intelij File Colors](https://www.jetbrains.com/idea/help/file-status-highlights.html)
     *  [Why do we have brown files!?](http://stackoverflow.com/questions/21341683/intellij-idea-red-brown-highlighted-file-na     me)
-    *  
-  1. Right click your module > git > add directory
-  2. This will add all the files/structure to git. Now you can commit easy peasy.
