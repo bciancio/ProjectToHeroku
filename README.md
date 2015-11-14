@@ -7,7 +7,7 @@
 * Java 8 installed
 * A Maven project
 
-###### Setup a heroku account if you dont have one
+###### Setting up a heroku account if you dont have one:
   1. Sign-up [here](https://signup.heroku.com/dc)
   
 ###### If your project is not built on a Maven framework: 
