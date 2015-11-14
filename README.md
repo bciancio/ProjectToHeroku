@@ -52,7 +52,7 @@
     </dependencies>
   ```
 
-  [*A GREAT RESOURCE*](http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.37) for knowing what the dependency    xml is.
+  [*A GREAT RESOURCE*](http://mvnrepository.com/search?q=SEARCH+WHAT+YOU+WANT+HERE) for knowing what the <dependency>looks     like.
   
   3. When I added these in the top right some message came up saying 'maven needs something' I  hit 'enable auto something'.
     * Basically every time a dependency is added maven will do something and add it to the libraries. IT TAKES A BIT FOR YOUR       PROJECT TO RE-INDEX/BUILD
