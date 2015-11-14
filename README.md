@@ -18,7 +18,7 @@
 
 2.  At this point everything should be broken ;) Lets start by adding maven dependencies
 
-  You could try to [Generate pom.xml dependencies -       Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html), I was unable to get this to work.
+  You could try to [Generate pom.xml dependencies -       Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html). However I was unable to get this to work.
   
   1. Navigate to the pom.xml file
   2. I only needed to add hibernate/jersey (thus far) to my project dependencies
