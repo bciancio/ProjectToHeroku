@@ -87,5 +87,5 @@
 
 ###### Installing the Heroku toolbelt
   
-  1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up)
+  1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up). Most steps from here on out     will be my experience with following the getting started with java heroku tutorial (in that link)
   
