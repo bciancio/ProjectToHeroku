@@ -17,7 +17,7 @@
   You can generate them all/most of them with intelliJ.
 
 2.  At this point everything should be broken ;) Lets start by adding maven dependencies
-
+  You could try to [Generate pom.xml dependencies -     Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html), I was unable to get this to work.
   1. Navigate to the pom.xml file
   2. I only needed to add hibernate/jersey (thus far) to my project dependencies
   
@@ -57,14 +57,11 @@
   * ```Error:java: javacTask: source release 1.7 requires target release 1.7```  [Source4Below](http://stackoverflow.com/questions/12900373/idea-javac-source-release-1-7-requires-target-release-1-7)
  
     1. Navigate: Settings > Build,Execution,Deployment > Java Compiler
-  
     2. Under the "Per-module bytecode version" Change your modules target bytecode version to the one that maches your error.        (the error above required a bytecode version of 1.7.
 
-  
   * ```hibernate.cfg.xml not found```
   
     1. When you added the maven framework to your project it generated a Resources folder Navigate to it.
     2. Drag in your hibernate / all your table config files to this new folder.
 
 
-3. [Generate pom.xml dependencies - Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html)
