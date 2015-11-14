@@ -1,6 +1,7 @@
 
 
 # How to:
+*Important:* I'm doing this on windows, some things might be different on mac.
 
 ###### Heroku requires the following:
 * a Heroku account (which is free)
@@ -91,4 +92,5 @@
 ###### Installing the Heroku toolbelt
   
   1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up). Most steps from here on out     will be my experience with following the getting started with java heroku tutorial (in that link)
+  2.  Follow install wizard. I choose full install.
   
