@@ -17,8 +17,14 @@
   You can generate them all/most of them with intelliJ.
 
 2. Check to see if we broke the project (run main method)
+  * If you get something like this  ```Error:(73, 49) java: diamond operator is not supported in -source 1.5(use -source 7 or higher to enable diamond operator)```
+
+  1. Navigate: Project Structure > Modules > 
+
+    Under the language level change it to 7.
+    
   * If you get something like this ```Error:java: javacTask: source release 1.7 requires target release 1.7``` than do the following
-  * Navigate: Settings > Build,Execution,Deployment > Java Compiler
+  1. Navigate: Settings > Build,Execution,Deployment > Java Compiler
   
     Under the "Per-module bytecode version" Change your modules target bytecode version to the one that maches your error. (the error above required a bytecode version of 1.7.
 
