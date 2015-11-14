@@ -116,7 +116,7 @@
 
 ###### Preparing to work with your project
   3. In command prompt I did:
-    ![cmdPromtScreenie](http://oi68.tinypic.com/2i8wuif.jpg)
+    ![cmdPromtScreenie](http://oi68.tinypic.com/2r4sd1s.jpg)
 
 ###### Preparing your project:
 
