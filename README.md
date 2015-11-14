@@ -21,5 +21,9 @@
   * Navigate: Settings > Build,Execution,Deployment > Java Compiler
   
     Under the "Per-module bytecode version" Change your modules target bytecode version to the one that maches your error. (the error above required a bytecode version of 1.7.
-  
-2. [Generate pom.xml dependencies - Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html)
+
+    [Source](http://stackoverflow.com/questions/12900373/idea-javac-source-release-1-7-requires-target-release-1-7)
+    
+You should now be able to at least run the Maven project. It probably doesn't function like it did though!
+
+3. [Generate pom.xml dependencies - Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html)
