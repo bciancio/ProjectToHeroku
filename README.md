@@ -121,7 +121,7 @@
 
   2. Now you need to push to that heroku app you created 
   3. Type: ```git push heroku master``` in cmd prompt. 
-  4. Pray. I got errors the first time because my Maven dependencys were not right.
+  4. Pray. I got errors the first *FEW* time because my Maven dependencys were not right.
 
     a. If that happens I suggest deleting the app you created [here](https://dashboard.heroku.com/apps) under its settings.
     
