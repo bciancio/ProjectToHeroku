@@ -21,7 +21,7 @@
   You could try to [Generate pom.xml dependencies -       Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html). However I was unable to get this to work.
   
   1. Navigate to the pom.xml file
-  2. I only needed to add hibernate/jersey (thus far) to my project dependencies so in my pom.xml file I added:
+  2. I only needed to add hibernate/jersey/mySql (thus far) to my project dependencies so in my pom.xml file I added:
 
   ```xml 
   
@@ -42,6 +42,13 @@
             <version>1.12-b01</version>
         </dependency>
 
+        <!-- This is what I added to add mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.36</version>
+        </dependency>
+        
     </dependencies>
   ```
 
