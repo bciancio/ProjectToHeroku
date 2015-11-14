@@ -52,6 +52,8 @@
     </dependencies>
   ```
 
+  [*A GREAT RESOURCE*](http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.37) for knowing what the dependency    xml is.
+  
   3. When I added these in the top right some message came up saying 'maven needs something' I  hit 'enable auto something'.
     * Basically every time a dependency is added maven will do something and add it to the libraries. IT TAKES A BIT FOR YOUR       PROJECT TO RE-INDEX/BUILD
     
@@ -82,3 +84,6 @@
     *  [Why do we have brown files!?](http://stackoverflow.com/questions/21341683/intellij-idea-red-brown-highlighted-file-na     me)
 
 5. If all functionality works as expected than continue.
+
+###### Installing the 
+  [Heroku - Getting Started: Setup] https://devcenter.heroku.com/articles/getting-started-with-java#set-up
