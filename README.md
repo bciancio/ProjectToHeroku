@@ -126,5 +126,7 @@
     a. If that happens I suggest deleting the app you created [here](https://dashboard.heroku.com/apps) under its settings.
     
     b. fix the project - commit it.
-    
-    c. repeat the heroku create & push
+    c. in cmd type ```git remote -v``` Here you should see a heroku remote && your own (origin)
+    d. We want to remove the heroku remote so type ```git remote rm heroku```
+    e. repeat the heroku create & push
+  
