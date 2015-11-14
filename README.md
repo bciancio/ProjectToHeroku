@@ -57,6 +57,27 @@
 
   [*A GREAT RESOURCE*](http://mvnrepository.com/search?q=SEARCH+WHAT+YOU+WANT+HERE) for knowing what the <dependency>looks     like.
   
+  3. It is also important to specify your build in the pom.xml (before the dependencies):
+  ```xml
+  
+    <!-- This is the language level /  -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source> <!-- Langauge Level -->
+                    <target>1.7</target> <!-- Langauge Level -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+  
+  
+  ```
   3. When I added these in the top right some message came up saying 'maven needs something' I  hit 'enable auto something'.
     * Basically every time a dependency is added it adds it to your project. IT TAKES A BIT when you add a dependency for it       your project to re-index.
     
@@ -88,9 +109,18 @@
 
 5. If all functionality works as expected than continue.
 
-###### Installing the Heroku toolbelt
+###### Installing the Heroku toolbelt:
   
   1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up). Most steps from here on out     will be my experience with following the getting started with java heroku tutorial (in that link)
   2.  Follow install wizard. I choose full install.
+
+###### Preparing to work with your project
   3. In command prompt I did:
     ![cmdPromtScreenie](http://oi68.tinypic.com/2i8wuif.jpg)
+
+###### Preparing your project:
+
+  [Source](https://devcenter.heroku.com/articles/getting-started-with-java#prepare-the-app)
+  
+  1. Commit/Push your project to git.
+  2. 
