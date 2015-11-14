@@ -114,13 +114,7 @@
   1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up). Most steps from here on out     will be my experience with following the getting started with java heroku tutorial (in that link)
   2.  Follow install wizard. I choose full install.
 
-###### Preparing to work with your project
+###### Loging In / Creating a heroku app
   3. In command prompt I did:
     ![cmdPromtScreenie](http://oi68.tinypic.com/2r4sd1s.jpg)
 
-###### Preparing your project:
-
-  [Source](https://devcenter.heroku.com/articles/getting-started-with-java#prepare-the-app)
-  
-  1. Commit/Push your project to git.
-  2. 
