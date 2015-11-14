@@ -23,9 +23,9 @@
   
   I added: 
 
-  ```Java 
+  ```xml 
   
-      <!-- dependencies must be enclosed in the <dependencies> tags -->
+    <!-- dependencies must be enclosed in the <dependencies> tags -->
     <dependencies>
 
         <!-- This is what I added to add jersery -->
@@ -42,7 +42,8 @@
             <version>1.12-b01</version>
         </dependency>
 
-    </dependencies>```
+    </dependencies>
+  ```
 
 3. Check to see if we broke the project (run main method) - This step might be repeated if errors match/similiar
   * ```Error:(73, 49) java: diamond operator is not supported in -source 1.5(use -source 7 or     higher to enable diamond operator)``` [Source4Below](https://madjavaenterprise2015.slack.com/files/mcalabro/F0EBBAJJH/screen_shot_2015-11-11_at_5.58.52_pm.png)
