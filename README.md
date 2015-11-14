@@ -21,7 +21,7 @@
   1. Navigate to the pom.xml file
   2. I only needed to add hibernate/jersey (thus far) to my project dependencies
   
-  I added: 
+  In the pom.xml between the project tags I added.: 
 
   ```xml 
   
@@ -45,6 +45,9 @@
     </dependencies>
   ```
 
+  3. When I added these in the top right some message came up saying 'maven needs something' I  hit 'enable auto something'.
+    * Basically every time a dependency is added maven will do something and add it to the libraries. IT TAKES A BIT FOR YOUR       PROJECT TO RE-INDEX/BUILD
+    
 3. Check to see if we broke the project (run main method) - This step might be repeated if errors match/similiar
   * ```Error:(73, 49) java: diamond operator is not supported in -source 1.5(use -source 7 or     higher to enable diamond operator)``` [Source4Below](https://madjavaenterprise2015.slack.com/files/mcalabro/F0EBBAJJH/screen_shot_2015-11-11_at_5.58.52_pm.png)
 
