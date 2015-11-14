@@ -24,6 +24,6 @@
 
     [Source](http://stackoverflow.com/questions/12900373/idea-javac-source-release-1-7-requires-target-release-1-7)
     
-You should now be able to at least run the Maven project. It probably doesn't function like it did though!
+  You should now be able to at least run the Maven project. It probably doesn't function like it did though!
 
 3. [Generate pom.xml dependencies - Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html)
