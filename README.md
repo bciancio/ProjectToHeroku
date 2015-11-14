@@ -7,6 +7,9 @@
 * Java 8 installed
 * A Maven project
 
+###### Setup a heroku account if you dont have one
+  1. Sign-up [here](https://signup.heroku.com/dc)
+  
 ###### If your project is not built on a Maven framework: 
 
 1. [IntelliJ - Convert a Java project/module into a Maven project/module](http://stackoverflow.com/questions/7642456/intellij-convert-a-java-project-module-into-a-maven-project-module)
