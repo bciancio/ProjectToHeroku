@@ -31,12 +31,13 @@
     <!-- dependencies must be enclosed in the <dependencies> tags -->
     <dependencies>
 
-        <!-- This is what I added to add jersery -->
+        <!-- This is what I added to add Hibernate -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>3.5.1-Final</version>
+            <version>4.2.20.Final</version>
         </dependency>
+
 
         <!-- This is what I added to add jersery -->
         <dependency>
