@@ -64,4 +64,11 @@
     1. When you added the maven framework to your project it generated a Resources folder Navigate to it.
     2. Drag in your hibernate / all your table config files to this new folder.
 
+4. If all functionality works as expected than continue.
+5. Why are my files 'brown' color?
+ 
+  [source1](https://www.jetbrains.com/idea/help/file-status-highlights.html)
+  [source2](http://stackoverflow.com/questions/2134   1683/intellij-idea-red-brown-highlighted-file-name)
 
+  1. Right click your module > git > add directory
+  2. This will add all the files/structure to git. Now you can commit easy peasy.
