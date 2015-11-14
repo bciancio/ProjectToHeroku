@@ -85,5 +85,7 @@
 
 5. If all functionality works as expected than continue.
 
-###### Installing the 
-  [Heroku - Getting Started: Setup] https://devcenter.heroku.com/articles/getting-started-with-java#set-up
+###### Installing the Heroku toolbelt
+  
+  1.  Download [here](https://devcenter.heroku.com/articles/getting-started-with-java#set-up)
+  
