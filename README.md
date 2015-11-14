@@ -18,7 +18,7 @@
 
 2. Check to see if we broke the project (run main method)
   * If you get something like this ```Error:java: javacTask: source release 1.7 requires target release 1.7``` than do the following
-  * Navigate: Settings > Build,Execution,Deployment > Java Compiler
+  * Navigate: Settings > Build,Execution,Deployment > Java Compiler |||||
     Under the "Per-module bytecode version: change your modules target bytecode version to the one that maches your error. (the error above required a bytecode version of 1.7.
   
 2. [Generate pom.xml dependencies - Intellij](https://www.jetbrains.com/idea/help/generating-maven-dependencies.html)
