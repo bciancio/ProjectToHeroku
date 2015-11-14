@@ -124,5 +124,7 @@
   4. Pray. I got errors the first time because my Maven dependencys were not right.
 
     a. If that happens I suggest deleting the app you created [here](https://dashboard.heroku.com/apps) under its settings.
+    
     b. fix the project - commit it.
+    
     c. repeat the heroku create & push
