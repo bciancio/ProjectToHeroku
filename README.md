@@ -21,13 +21,13 @@
 
     1. Navigate: Project Structure > Modules > 
 
-    Under the language level change it to 7.
+    2. Under the language level change it to 7.
     
   * If you get something like this ```Error:java: javacTask: source release 1.7 requires target release 1.7``` than do the       following
  
-     1. Navigate: Settings > Build,Execution,Deployment > Java Compiler
+    1. Navigate: Settings > Build,Execution,Deployment > Java Compiler
   
-    Under the "Per-module bytecode version" Change your modules target bytecode version to the one that maches your error.       (the error above required a bytecode version of 1.7.
+    2. Under the "Per-module bytecode version" Change your modules target bytecode version to the one that maches your error.        (the error above required a bytecode version of 1.7.
 
     [Source](http://stackoverflow.com/questions/12900373/idea-javac-source-release-1-7-requires-target-release-1-7)
     
