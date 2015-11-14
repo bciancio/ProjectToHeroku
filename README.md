@@ -1,8 +1,7 @@
 
-
-# How to:
 *Important:* I'm doing this on windows, some things might be different on mac.
 
+# How to:
 ###### Heroku requires the following:
 * a Heroku account (which is free)
 * Java 8 installed
