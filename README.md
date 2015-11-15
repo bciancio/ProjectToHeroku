@@ -123,14 +123,9 @@
   3. Type: ```git push heroku master``` in cmd prompt. 
   4. Pray. I got errors the first *few* times because my Maven dependencys were not right.
 
-    a. If that happens I suggest deleting the app you created [here](https://dashboard.heroku.com/apps) under its settings.
     
-    b. fix the maven in project - commit it. (different for all imma guess?)
+    a. fix the maven in project - commit it. (different for all imma guess?)
     
-    c. in cmd type ```git remote -v``` Here you should see a heroku remote && your own (origin)
+    b. try to push again!
     
-    d. We want to remove the heroku remote so type ```git remote rm heroku```
-    
-    e. repeat the heroku create & push
-    
-  
+###### 
